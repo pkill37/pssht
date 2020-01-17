@@ -1,0 +1,21 @@
+#!/usr/bin/env bash
+
+#set -euxo pipefail
+
+# Try to max out volume
+# osascript -e "set Volume 10" || true
+
+declare -a LINES=("hey" "hey, you" "what are you doing?")
+
+# Loop forever
+while true; do
+    for LINE in "${LINES[@]}"; do
+        # Play the line through the sound output device
+        printf "$LINE"
+
+        # Sleep random seconds
+        #INTERVAL=$((1+RANDOM%3))
+        #sleep "$INTERVAL"
+        sleep 1
+    done
+done
