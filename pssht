@@ -1,5 +1,8 @@
 #!/bin/sh
 
+# Allow for time to discretely move away from the computer
+sleep 15
+
 # Array of sentences to play
 declare -a SENTENCES=("hey there" "hey, you" "i can see you" "look behind you")
 

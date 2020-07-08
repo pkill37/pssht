@@ -2,8 +2,9 @@
 
 Stupid script to creep out customers passing through the Apple section of a retail store. Running it will:
 
-1. Declare an array of sentences to play which you can customize
-2. Forever
+1. Sleep for 15 seconds
+2. Declare an array of sentences to play which you can customize
+3. Forever
     1. Try to max out the volume
     2. Play the sentences in order with random sleeps inbetween
 
@@ -21,10 +22,10 @@ curl https://raw.githubusercontent.com/fabiomaia/pssht/master/pssht > pssht
 chmod +x pssht
 ```
 
-3. Run the `pssht` script in the background with `&` after sleeping for 15 seconds.
+3. Run the `pssht` script in the background with `&`.
 
 ```
-sleep 15; ./pssht &
+./pssht &
 ```
 
 4. Optionally close the terminal emulator app, discretely move away from the computer, and strategically position yourself for observation.
