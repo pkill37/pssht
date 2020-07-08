@@ -1,0 +1,21 @@
+#!/bin/sh
+set -euxo pipefail
+
+# Array of sentences to play
+declare -a SENTENCES=("hey there" "hey, you" "i can see you" "look behind you")
+
+# Loop forever
+while true; do
+    # Iterate sentences in order
+    for SENTENCE in "${SENTENCES[@]}"; do
+        # Try to max out volume
+        osascript -e "set Volume 10" || true
+
+        # Play the sentence (in the system's language) through the sound output device, see `man say` for more options
+        say "$SENTENCE"
+
+        # Sleep random seconds
+        INTERVAL=$((1+RANDOM%10))
+        sleep "$INTERVAL"
+    done
+done
