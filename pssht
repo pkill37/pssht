@@ -1,5 +1,4 @@
 #!/bin/sh
-set -euxo pipefail
 
 # Array of sentences to play
 declare -a SENTENCES=("hey there" "hey, you" "i can see you" "look behind you")
