@@ -17,7 +17,7 @@ Disclaimer: Be careful testing it (especially with headphones) because it will m
 
 ```
 cd /tmp
-curl ...
+curl https://raw.githubusercontent.com/fabiomaia/pssht/master/pssht > pssht
 chmod +x pssht
 ```
 
