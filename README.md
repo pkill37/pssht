@@ -12,20 +12,20 @@ Disclaimer: Be careful testing it (especially with headphones) because it will m
 
 ## Usage
 
+Ideally you would read these instructions on your smartphone and:
+
 1. Open a terminal emulator app (i.e., Terminal.app in stock macOS).
 
 2. Download the `pssht` script.
 
 ```
-cd /tmp
-curl https://raw.githubusercontent.com/fabiomaia/pssht/master/pssht > pssht
-chmod +x pssht
+git clone https://github.com/fabiomaia/pssht.git /tmp/pssht
 ```
 
 3. Run the `pssht` script in the background with `&`.
 
 ```
-./pssht &
+bash /tmp/pssht/pssht &
 ```
 
 4. Optionally close the terminal emulator app, discretely move away from the computer, and strategically position yourself for observation.
