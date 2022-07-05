@@ -14,25 +14,27 @@ Disclaimer: Be careful testing it (especially with headphones) because it will m
 
 Ideally you would read these instructions on your smartphone and:
 
-1. Open a terminal emulator app (i.e., Terminal.app in stock macOS).
+1. Find an unlocked Macbook.
 
-2. Download the `pssht` script.
+2. Open a terminal emulator app (i.e., Terminal.app in stock macOS).
+
+3. Download the `pssht` script.
 
 ```
 git clone https://github.com/fabiomaia/pssht.git /tmp/pssht
 ```
 
-3. Run the `pssht` script in the background with `&`.
+4. Run the `pssht` script in the background with `&`.
 
 ```
 bash /tmp/pssht/pssht &
 ```
 
-4. Optionally close the terminal emulator app, discretely move away from the computer, and strategically position yourself for observation.
+5. Optionally close the terminal emulator app, discretely move away from the computer, and strategically position yourself for observation.
 
-5. Observe the reactions.
+6. Observe the reactions.
 
-6. Feel bad because you have nothing better to do with your life.
+7. Feel bad because you have nothing better to do with your life.
 
 ## License
 
